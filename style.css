@@ -1,0 +1,116 @@
+.navbar-brand img{
+    max-height: 40px;
+}
+
+header .row {
+    /*background-color: rgb(2,0,97);*/
+    background-image: url(./img/acceuil1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 70vh;
+    color: yellow;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 92%);
+}
+
+.titreHaut {
+    background-color: rgba(0, 0, 0, 0.226);
+    min-height: 70vh;
+
+    font-family: 'Raleway', sans-serif;
+}
+
+header h2 {
+    font-family: 'Dancing Script', cursive;
+    margin-bottom: 50px;
+}
+
+header .slogan {
+    display: flex;
+    min-height: 70vh;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+    header .slogan {
+        display: none;
+    }
+}
+
+#grp .media span {
+    color: black;
+    font-size: 3rem;
+    width: 4rem;
+    text-align: center;
+}
+
+#grp .media {
+    padding: 0.5rem 1rem;
+    transition: all .3s ease-in-out;
+    border-radius: 10px 10px;
+}
+
+#grp .media:hover {
+    background-color: rgba(128, 128, 128, .5);
+    
+}
+
+.storylogo {
+    min-height: calc(100vh - 50px);
+    background-color: #d3dae4;
+    
+}
+
+.storylogo span {
+    font-size: 5rem;
+    color: #17a2b8;
+}
+
+.storylogo h5 {
+    font-size: 2rem;
+    color: #888;
+}
+
+.storylogopng {
+    min-height: calc(100vh - 50px);
+    background-image: url(./img/logo.PNG);
+
+    background-attachment: fixed;  
+}
+
+#contact {
+    background-image: url(./img/acceuil3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+min-height: calc(100vh - 50px);
+}
+
+#contact .row {
+    min-height: calc(100vh - 50px);
+}
+
+.formContact {
+    background-color: rgba(255,255,255,.7);
+    padding: 2rem 1rem;
+}
+
+footer{
+    background-color: rgba(0,0,0,0.8);
+    color: #999;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+footer a {
+    color: #999;
+    font-size: 2rem;
+    transition: all .2s ease-in-out;
+}
+
+footer a:hover {
+    color: #fff;
+    font-size: 2.5rem;
+    text-decoration: none;
+}
