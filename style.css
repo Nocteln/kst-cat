@@ -75,9 +75,30 @@ header .slogan {
 .storylogopng {
     min-height: calc(100vh - 50px);
     background-image: url(./img/logo.PNG);
-
+    background-size: contain;
+    background-repeat: no-repeat;
     background-attachment: fixed;  
+
 }
+
+#coc .media span {
+    color: black;
+    font-size: 3rem;
+    width: 4rem;
+    text-align: center;
+}
+
+#coc .media {
+    padding: 0.5rem 1rem;
+    transition: all .3s ease-in-out;
+    border-radius: 10px 10px;
+}
+
+#coc .media:hover {
+    background-color: rgba(128, 128, 128, .5);
+    
+}
+
 
 #contact {
     background-image: url(./img/acceuil3.png);
