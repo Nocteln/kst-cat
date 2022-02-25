@@ -95,17 +95,16 @@ header .slogan {
 }
 
 #coc .media:hover {
-    background-color: rgba(128, 128, 128, .5);
-    
+    background-color: rgba(128, 128, 128, .5);   
 }
-
 
 #contact {
     background-image: url(./img/acceuil3.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-min-height: calc(100vh - 50px);
+    min-height: calc(100vh - 50px);
+    text-align: center;
 }
 
 #contact .row {
@@ -113,8 +112,8 @@ min-height: calc(100vh - 50px);
 }
 
 .formContact {
-    background-color: rgba(255,255,255,.7);
-    padding: 2rem 1rem;
+    background-color: rgba(255,255,255,.5);
+    padding: 6rem;
 }
 
 footer{
@@ -124,14 +123,49 @@ footer{
     padding-bottom: 1.5rem;
 }
 
-footer a {
+footer .icones a {
     color: #999;
     font-size: 2rem;
     transition: all .2s ease-in-out;
 }
 
-footer a:hover {
+footer .icones a:hover {
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     text-decoration: none;
 }
+
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: underline;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer .contacts a {
+    color: #999;
+    text-decoration: underline;
+}
+
+footer .contacts a:hover {
+    text-decoration: none;
+}
+
+.email-c, .sujet-c, .message-c {
+    border: #000 dashed;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+}
+
